@@ -1,112 +1,27 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ella Türümina - Professional Portfolio</title>
-    <style>
-        /* Base Reset */
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Arial', sans-serif;
-            color: #333;
-            background: #f5f5f5;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            margin: 0;
-        }
-        
-        /* Card Layout */
-        .container {
-            background: #fff;
-            width: 90%;
-            max-width: 800px;
-            padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
-        
-        /* Header */
-        .header {
-            margin-bottom: 20px;
-        }
-        .header h1 {
-            font-size: 2.5em;
-            color: #2a9d8f;
-        }
-        .header p {
-            font-size: 1.2em;
-            color: #555;
-        }
-        
-        /* Download Button */
-        .download-btn {
-            margin: 20px auto;
-            display: inline-block;
-            padding: 12px 24px;
-            background-color: #2a9d8f;
-            color: #fff;
-            font-size: 1.1em;
-            font-weight: bold;
-            text-decoration: none;
-            border-radius: 8px;
-            transition: background-color 0.3s ease;
-        }
-        .download-btn:hover {
-            background-color: #21867a;
-        }
-        
-        /* Links Section */
-        .links {
-            margin-top: 30px;
-            display: flex;
-            justify-content: center;
-            gap: 15px;
-        }
-        .links a {
-            color: #2a9d8f;
-            font-size: 1.2em;
-            text-decoration: none;
-            transition: color 0.3s ease;
-        }
-        .links a:hover {
-            color: #555;
-        }
-        
-        /* Footer */
-        .footer {
-            margin-top: 40px;
-            font-size: 0.9em;
-            color: #aaa;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <div class="header">
-            <h1>Ella Türümina</h1>
-            <p>Enterprise Architect | Innovator in Railways </p>
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- TODO: Set the document title to the name of your application -->
+    <title>Enterprise AI Readiness</title>
+    <meta name="description" content="Ella Consulting" />
+    <meta name="author" content="Ella Consulting" />
 
-        <p>Hello! Welcome to my professional website. Below, you can download my CV and explore some of my work and profiles.</p>
-        
-        <!-- Download CV Button -->
-        <a href="tyuryumina-CV 2024.pdf" class="download-btn" download>Download CV (PDF)</a>
+    <!-- TODO: Update og:title to match your application name -->
+    <meta property="og:title" content="Ella Consulting App" />
+    <meta property="og:description" content="Ella Consulting Project" />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <!-- <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" /> -->
+    <!-- <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@Lovable" />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" /> -->
+  </head>
 
-        <!-- Social & Professional Links -->
-        <div class="links">
-            <a href="https://linkedin.com/in/ella-turumina" target="_blank">LinkedIn</a>
-            <a href="https://github.com/ellaroyce" target="_blank">GitHub</a>
-            <a href="https://www.scopus.com/authid/detail.uri?partnerID=HzOxMe3b&authorId=57195103709&origin=inward" target="_blank">Scopus</a>
-        </div>
-        
-        <!-- Footer -->
-        <div class="footer">
-            <p>© 2024 Ella Türümina - All Rights Reserved</p>
-        </div>
-    </div>
-</body>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
