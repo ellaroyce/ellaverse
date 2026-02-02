@@ -14,13 +14,13 @@ const App = () => (
       <Toaster />
       <Sonner />
 
-      {/* IMPORTANT for GitHub Pages subpath deployments */}
       <BrowserRouter basename={import.meta.env.BASE_URL}>
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
+
     </TooltipProvider>
   </QueryClientProvider>
 );
