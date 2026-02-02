@@ -13,14 +13,13 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-
+      {/* IMPORTANT: makes /ellaverse/ map to "/" */}
       <BrowserRouter basename={import.meta.env.BASE_URL}>
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
-
     </TooltipProvider>
   </QueryClientProvider>
 );

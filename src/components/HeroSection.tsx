@@ -2,7 +2,10 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import profilePhoto from "../assets/7B3FC679.jpg"; 
 
+
 const HeroSection = () => {
+  const profilePhotoUrl = `${import.meta.env.BASE_URL}profile.jpg`;
+  
   return (
     <section className="relative min-h-screen pt-20 overflow-hidden">
       <div className="container relative z-10 px-6 py-12">
@@ -127,7 +130,7 @@ const HeroSection = () => {
           <div className="absolute left-8 md:left-16 -bottom-16 md:-bottom-20 z-20">
             <div className="w-32 h-32 md:w-40 md:h-40 rounded-full border-4 border-background bg-muted overflow-hidden shadow-2xl">
               <img
-                src={profilePhoto}
+                src={profilePhotoUrl}
                 alt="Profile"
                 className="w-full h-full object-cover"
                 loading="lazy"
@@ -147,47 +150,63 @@ const HeroSection = () => {
         </div>
 
         {/* Content below banner */}
-        <div className="max-w-6xl mx-auto mt-24 md:mt-28 grid md:grid-cols-2 gap-12 items-start">
-          {/* Left - Bio */}
-          <div className="animate-fade-up">
-            <h2 className="text-3xl md:text-4xl font-bold font-display mb-4">
-              Ella Türümina
-            </h2>
-            <p className="text-lg text-muted-foreground leading-relaxed mb-4">
-              I help regulated enterprises ship AI safely — governance, auditability, scale.
-              <br />
-              AI readiness frameworks that turn pilots into production: clear accountability, compliant data lineage, measurable ROI.
-            </p>
+        <div className="max-w-6xl mx-auto mt-10 sm:mt-14 md:mt-28 px-4 sm:px-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-start">
+            {/* Left - Bio */}
+            <div className="animate-fade-up">
+              <h2 className="text-3xl sm:text-4xl md:text-4xl font-bold font-display tracking-tight">
+                Ella Türümina
+              </h2>
 
-            <ul className="list-disc pl-5 space-y-2 text-lg text-muted-foreground mb-6">
-              <li>Risk ownership & decision rights (who answers when AI is wrong)</li>
-              <li>Auditability (lineage, reproducibility, documentation)</li>
-              <li>Operating model (forums, controls, KPI cockpit)</li>
-            </ul>
+              <p className="mt-3 text-base sm:text-lg text-muted-foreground leading-relaxed max-w-prose">
+                I help regulated enterprises ship AI safely — with governance, auditability, and a clear path from pilots to production.
+              </p>
 
-            <div className="flex flex-wrap gap-3">
-              <Button variant="default" size="lg">
-                Book a 15-min Readiness Call
-                <ArrowRight className="w-4 h-4" />
-              </Button>
-              <Button variant="outline" size="lg">
-                Download: 30-min AI Readiness Checklist (PDF)
-              </Button>
-            </div>
-          </div>
+              <ul className="mt-5 space-y-2 text-base sm:text-lg text-muted-foreground">
+                <li className="flex gap-2">
+                  <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-foreground/40" />
+                  <span><span className="font-medium text-foreground/80">Risk ownership</span> & decision rights (who answers when AI is wrong)</span>
+                </li>
+                <li className="flex gap-2">
+                  <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-foreground/40" />
+                  <span><span className="font-medium text-foreground/80">Auditability</span> (lineage, reproducibility, documentation)</span>
+                </li>
+                <li className="flex gap-2">
+                  <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-foreground/40" />
+                  <span><span className="font-medium text-foreground/80">Operating model</span> (forums, controls, KPI cockpit)</span>
+                </li>
+              </ul>
 
-          {/* Right - Stats */}
-          <div className="grid grid-cols-3 gap-6 animate-fade-up" style={{ animationDelay: '0.2s' }}>
-            {[
-              { value: '10+', label: 'Years' },
-              { value: '10+', label: 'Countries' },
-              { value: '15+', label: 'Publications' },
-            ].map((stat) => (
-              <div key={stat.label} className="text-center p-4 rounded-xl bg-card border border-border">
-                <div className="text-2xl md:text-3xl font-bold font-display">{stat.value}</div>
-                <div className="text-sm text-muted-foreground mt-1">{stat.label}</div>
+              <div className="mt-6 flex flex-col sm:flex-row gap-3">
+                <Button variant="default" size="lg" className="w-full sm:w-auto">
+                  Book a 15-min Readiness Call
+                  <ArrowRight className="w-4 h-4 ml-2" />
+                </Button>
+                <Button variant="outline" size="lg" className="w-full sm:w-auto">
+                  Download: 30-min AI Readiness Checklist (PDF)
+                </Button>
               </div>
-            ))}
+            </div>
+
+            {/* Right - Stats */}
+            <div
+              className="grid grid-cols-2 sm:grid-cols-3 gap-3 sm:gap-6 animate-fade-up"
+              style={{ animationDelay: "0.2s" }}
+            >
+              {[
+                { value: "10+", label: "Years" },
+                { value: "10+", label: "Countries" },
+                { value: "15+", label: "Publications" },
+              ].map((stat) => (
+                <div
+                  key={stat.label}
+                  className="text-center p-4 sm:p-5 rounded-xl bg-card border border-border"
+                >
+                  <div className="text-2xl sm:text-3xl font-bold font-display">{stat.value}</div>
+                  <div className="text-xs sm:text-sm text-muted-foreground mt-1">{stat.label}</div>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>
