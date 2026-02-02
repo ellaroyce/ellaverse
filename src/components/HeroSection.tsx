@@ -146,72 +146,48 @@ const HeroSection = () => {
           </div>*/}
         </div>
 
-
         {/* Content below banner */}
-        <div className="max-w-6xl mx-auto mt-10 sm:mt-14 md:mt-28 grid gap-8 md:grid-cols-2 md:gap-12 items-start">
+        <div className="max-w-6xl mx-auto mt-24 md:mt-28 grid md:grid-cols-2 gap-12 items-start">
           {/* Left - Bio */}
           <div className="animate-fade-up">
-            <h2 className="text-3xl sm:text-4xl md:text-4xl font-bold font-display tracking-tight">
+            <h2 className="text-3xl md:text-4xl font-bold font-display mb-4">
               Ella Türümina
             </h2>
-
-            <p className="mt-3 text-base sm:text-lg text-muted-foreground leading-relaxed">
-              I help regulated enterprises ship AI safely — governance, auditability, scale.
+            <p className="text-lg text-muted-foreground leading-relaxed mb-4">
+              I help regulated enterprises ship AI safely. 
             </p>
 
-            <ul className="mt-5 space-y-3 text-base sm:text-lg text-muted-foreground">
-              <li className="flex gap-3">
-                <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-foreground/40" />
-                <span><strong className="text-foreground/80">Risk ownership</strong> & decision rights (who answers when AI is wrong)</span>
-              </li>
-              <li className="flex gap-3">
-                <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-foreground/40" />
-                <span><strong className="text-foreground/80">Auditability</strong> (lineage, reproducibility, documentation)</span>
-              </li>
-              <li className="flex gap-3">
-                <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-foreground/40" />
-                <span><strong className="text-foreground/80">Operating model</strong> (forums, controls, KPI cockpit)</span>
-              </li>
+            <ul className="list-disc pl-5 space-y-2 text-lg text-muted-foreground mb-6">
+              <li>Risk ownership & decision rights (who answers when AI is wrong)</li>
+              <li>Auditability (lineage, reproducibility, documentation)</li>
+              <li>Operating model (forums, controls, KPI cockpit)</li>
             </ul>
 
-            <div className="mt-6 grid gap-3 sm:flex sm:flex-wrap">
-              <Button className="w-full sm:w-auto" variant="default" size="lg">
+            <div className="flex flex-wrap gap-3">
+              <Button variant="default" size="lg">
                 Book a 15-min Readiness Call
                 <ArrowRight className="w-4 h-4" />
               </Button>
-
-              <Button className="w-full sm:w-auto" variant="outline" size="lg">
-                Download: 30-min AI Readiness Checklist (PDF)
+              <Button variant="outline" size="lg">
+                Download: 30-min AI Readiness Checklist
               </Button>
             </div>
           </div>
 
           {/* Right - Stats */}
-          <div
-            className="grid grid-cols-2 sm:grid-cols-3 gap-4 animate-fade-up"
-            style={{ animationDelay: "0.2s" }}
-          >
+          <div className="grid grid-cols-3 gap-6 animate-fade-up" style={{ animationDelay: '0.2s' }}>
             {[
-              { value: "10+", label: "Years" },
-              { value: "10+", label: "Countries" },
-              { value: "15+", label: "Publications" },
+              { value: '10+', label: 'Years' },
+              { value: '10+', label: 'Countries' },
+              { value: '15+', label: 'Publications' },
             ].map((stat) => (
-              <div
-                key={stat.label}
-                className="text-center p-4 rounded-xl bg-card border border-border"
-              >
-                <div className="text-2xl sm:text-3xl font-bold font-display">
-                  {stat.value}
-                </div>
-                <div className="text-xs sm:text-sm text-muted-foreground mt-1">
-                  {stat.label}
-                </div>
+              <div key={stat.label} className="text-center p-4 rounded-xl bg-card border border-border">
+                <div className="text-2xl md:text-3xl font-bold font-display">{stat.value}</div>
+                <div className="text-sm text-muted-foreground mt-1">{stat.label}</div>
               </div>
             ))}
           </div>
         </div>
-
-
       </div>
     </section>
   );
