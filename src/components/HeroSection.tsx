@@ -192,7 +192,7 @@ const HeroSection = () => {
                 </Button>
 
                 <Button variant="outline" size="lg" className="w-full sm:w-auto justify-center">
-                  Download: 30-min AI Readiness Checklist (PDF)
+                  Download: 30-min AI Readiness Checklist
                 </Button>
               </div>
             </div>
