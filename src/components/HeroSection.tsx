@@ -154,9 +154,7 @@ const HeroSection = () => {
               Ella Türümina
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed mb-4">
-              I help regulated enterprises ship AI safely — governance, auditability, scale.
-              <br />
-              AI readiness frameworks that turn pilots into production: clear accountability, compliant data lineage, measurable ROI.
+              I help regulated enterprises ship AI safely. 
             </p>
 
             <ul className="list-disc pl-5 space-y-2 text-lg text-muted-foreground mb-6">
@@ -171,7 +169,7 @@ const HeroSection = () => {
                 <ArrowRight className="w-4 h-4" />
               </Button>
               <Button variant="outline" size="lg">
-                Download: 30-min AI Readiness Checklist (PDF)
+                Download: 30-min AI Readiness Checklist
               </Button>
             </div>
           </div>
