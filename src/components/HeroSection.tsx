@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-// import profilePhoto from "../assets/7B3FC679.jpg"; 
-const profilePhotoUrl = `${import.meta.env.BASE_URL}profile.jpg`;
+import profilePhoto from "../assets/7B3FC679.jpg"; 
 
 const HeroSection = () => {
   return (
@@ -128,7 +127,7 @@ const HeroSection = () => {
           <div className="absolute left-8 md:left-16 -bottom-16 md:-bottom-20 z-20">
             <div className="w-32 h-32 md:w-40 md:h-40 rounded-full border-4 border-background bg-muted overflow-hidden shadow-2xl">
               <img
-                src={profilePhotoUrl}
+                src={profilePhoto}
                 alt="Profile"
                 className="w-full h-full object-cover"
                 loading="lazy"
@@ -155,7 +154,9 @@ const HeroSection = () => {
               Ella Türümina
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed mb-4">
-              I help regulated enterprises ship AI safely. 
+              I help regulated enterprises ship AI safely.
+              {/*<br />
+              AI readiness frameworks that turn pilots into production: clear accountability, compliant data lineage, measurable ROI.*/}
             </p>
 
             <ul className="list-disc pl-5 space-y-2 text-lg text-muted-foreground mb-6">
