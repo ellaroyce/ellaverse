@@ -4,7 +4,7 @@ const publications = [
   {
     title: "A Mathematical Model to Predict Diagnostic Periods for Secondary Distant Metastases in Patients with ER/PR/HER2/Ki-67 Subtypes of Breast Cancer",
     journal: "MDPI. Cancers (Q1)",
-    year: "2019",
+    year: "2020",
     type: "Journal Article",
     doi: "https://doi.org/10.3390/cancers12092344",
   },
