@@ -6,6 +6,7 @@ const publications = [
     journal: "MDPI. Cancers (Q1)",
     year: "2020",
     type: "Journal Article",
+    award: "Main Paper",
     doi: "https://doi.org/10.3390/cancers12092344",
   },
   {
@@ -13,6 +14,7 @@ const publications = [
     journal: "PLoS ONE (Q1)",
     year: "2018",
     type: "Journal Article",
+    award: "Main Paper",
     doi: "https://doi.org/10.1371/journal.pone.0200148",
   },
   // {
@@ -39,7 +41,7 @@ const publications = [
   {
     title: "A mathematical model to predict the diagnostics periods for the secondary distant metastases in patients with ER/PR/HER2/Ki-67 subtypes of breast cancer",
     journal: "30th American Medical Informatics Association (AMIA 2020), Annual Symposium. – S68: Oral Presentations: Pattern Discovery and Classification (CORE A)",
-    year: "2018",
+    year: "2020",
     type: "Abstract",
     doi: "https://knowledge.amia.org/72332-amia-1.4602255/t004-1.4605866/t004-1.4605867/3402942-1.4605898/3402942-1.4605899?timeStamp=1608190904469&qr=1",
   },
