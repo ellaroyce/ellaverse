@@ -6,7 +6,7 @@ const publications = [
     journal: "MDPI. Cancers (Q1)",
     year: "2020",
     type: "Journal Article",
-    award: "Main Paper",
+    // award: "Main Paper",
     doi: "https://doi.org/10.3390/cancers12092344",
   },
   {
@@ -14,7 +14,7 @@ const publications = [
     journal: "PLoS ONE (Q1)",
     year: "2018",
     type: "Journal Article",
-    award: "Main Paper",
+    // award: "Main Paper",
     doi: "https://doi.org/10.1371/journal.pone.0200148",
   },
   // {
