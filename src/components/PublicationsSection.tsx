@@ -17,13 +17,6 @@ const publications = [
     award: "Main Results",
     doi: "https://doi.org/10.1371/journal.pone.0200148",
   },
-  // {
-  //   title: "The CoMPaS exponential growth model: predicting tumor growth and recurrence",
-  //   journal: "VJOncology",
-  //   year: "2021",
-  //   type: "Video Interview",
-  //   doi: "https://www.youtube.com/watch?app=desktop&v=KjIbkJXJWV0",
-  // },
   {
     title: "Mathematical modelling to predict recurrence periods for secondary metastases in breast cancer",
     journal: "VJOncology",

@@ -1,12 +1,6 @@
 import { Award, BookOpen, Building2, FlaskConical, GraduationCap, Medal, Mic } from "lucide-react";
 
 const achievements = [
-  // {
-  //   icon: GraduationCap,
-  //   title: "PhD in Applied Mathematics",
-  //   description: "Research on personalized mathematical growth models for breast cancer prediction at FAU Erlangen",
-  //   year: "2026-present"
-  // },
   {
     icon: Medal,
     title: "PM@Siemens",
@@ -31,12 +25,6 @@ const achievements = [
     description: "Siemens",
     year: "2021"
   },
-  // {
-  //   icon: GraduationCap,
-  //   title: "Commendation from the Faculty of Computer Science on September 02, 2019 For the consistently high quality of performing their duties",
-  //   description: "NRU HSE",
-  //   year: "2019"
-  // },
   {
     icon: Building2,
     title: "Enterprise Architect for IT Landscape",

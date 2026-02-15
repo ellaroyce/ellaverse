@@ -114,11 +114,6 @@ const HeroSection = () => {
                 </h1>
 
                 {/* Keywords */}
-                {/* <div className="space-y-1 text-xl md:text-2xl font-medium text-muted-foreground/80">
-                  <p>Governance</p>
-                  <p>Scale</p>
-                  <p>ROI</p>
-                </div> */}
               </div>
             </div>
           </div>
@@ -135,60 +130,6 @@ const HeroSection = () => {
             </div>
           </div>
 
-          {/* Profile Photo - Overlapping 
-          <div className="absolute left-8 md:left-16 -bottom-16 md:-bottom-20 z-20">
-            <div className="w-32 h-32 md:w-40 md:h-40 rounded-full border-4 border-background bg-muted overflow-hidden shadow-2xl">
-              Placeholder - replace with actual photo 
-              <div className="w-full h-full bg-gradient-to-br from-secondary to-muted flex items-center justify-center">
-                <span className="text-4xl md:text-5xl font-display font-bold text-foreground/20">ET</span>
-              </div>
-            </div>
-          </div>*/}
-        {/* </div> */}
-
-        {/* Content below banner */}
-        {/* <div className="max-w-6xl mx-auto mt-24 md:mt-28 grid md:grid-cols-2 gap-12 items-start"> */}
-          {/* Left - Bio */}
-          {/* <div className="animate-fade-up">
-            <h2 className="text-3xl md:text-4xl font-bold font-display mb-4">
-              Ella Türümina
-            </h2>
-            <p className="text-lg text-muted-foreground leading-relaxed mb-4">
-              I help regulated enterprises ship AI safely.
-              {
-              AI readiness frameworks that turn pilots into production: clear accountability, compliant data lineage, measurable ROI.*/}
-            {/* </p>
-
-            <ul className="list-disc pl-5 space-y-2 text-lg text-muted-foreground mb-6">
-              <li>Risk ownership & decision rights (who answers when AI is wrong)</li>
-              <li>Auditability (lineage, reproducibility, documentation)</li>
-              <li>Operating model (forums, controls, KPI cockpit)</li>
-            </ul>
-
-            <div className="flex flex-wrap gap-3">
-              <Button variant="default" size="lg">
-                Book a 15-min Readiness Call
-                <ArrowRight className="w-4 h-4" />
-              </Button>
-              <Button variant="outline" size="lg">
-                Download: 30-min AI Readiness Checklist
-              </Button>
-            </div>
-          </div> */}
-
-          {/* Right - Stats */}
-          {/* <div className="grid grid-cols-3 gap-6 animate-fade-up" style={{ animationDelay: '0.2s' }}>
-            {[
-              { value: '10+', label: 'Years' },
-              { value: '10+', label: 'Countries' },
-              { value: '15+', label: 'Publications' },
-            ].map((stat) => (
-              <div key={stat.label} className="text-center p-4 rounded-xl bg-card border border-border">
-                <div className="text-2xl md:text-3xl font-bold font-display">{stat.value}</div>
-                <div className="text-sm text-muted-foreground mt-1">{stat.label}</div>
-              </div>
-            ))}
-          </div> */}
         </div>
       </div>
     </section>
