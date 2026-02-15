@@ -102,14 +102,14 @@ const HeroSection = () => {
                     className="glitch-text inline-block" 
                     data-text="Ella"
                   >
-                    Ella
+                    Professional
                   </span>
                   <br />
                   <span 
                     className="glitch-text inline-block" 
                     data-text="Türümina"
                   >
-                    Tiuriumina
+                    Summary
                   </span>
                 </h1>
 
