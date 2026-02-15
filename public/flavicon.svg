@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="crystalGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="hsl(280,45%,70%)"/>
+      <stop offset="100%" stop-color="hsl(169,50%,65%)"/>
+    </linearGradient>
+
+    <linearGradient id="crystalGrad2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="hsl(330,40%,75%)"/>
+      <stop offset="100%" stop-color="hsl(280,45%,60%)"/>
+    </linearGradient>
+
+    <linearGradient id="crystalGrad3" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="hsl(169,50%,75%)"/>
+      <stop offset="100%" stop-color="hsl(280,45%,65%)"/>
+    </linearGradient>
+
+    <linearGradient id="crystalGrad4" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="hsl(190,30%,75%)"/>
+      <stop offset="100%" stop-color="hsl(270,25%,80%)"/>
+    </linearGradient>
+  </defs>
+
+  <polygon points="100,5 115,70 100,85 85,70" fill="url(#crystalGrad1)" opacity="0.9"/>
+  <polygon points="100,5 85,70 75,55" fill="url(#crystalGrad2)" opacity="0.85"/>
+  <polygon points="100,5 115,70 125,55" fill="url(#crystalGrad3)" opacity="0.8"/>
+
+  <polygon points="175,35 120,75 100,85 115,70" fill="url(#crystalGrad2)" opacity="0.85"/>
+  <polygon points="175,35 130,60 120,75" fill="url(#crystalGrad4)" opacity="0.75"/>
+
+  <polygon points="195,100 130,95 115,100 130,105" fill="url(#crystalGrad1)" opacity="0.9"/>
+  <polygon points="195,100 130,105 125,120" fill="url(#crystalGrad3)" opacity="0.8"/>
+
+  <polygon points="175,165 120,125 100,115 115,130" fill="url(#crystalGrad4)" opacity="0.85"/>
+  <polygon points="175,165 130,140 120,125" fill="url(#crystalGrad1)" opacity="0.75"/>
+
+  <polygon points="100,195 115,130 100,115 85,130" fill="url(#crystalGrad2)" opacity="0.9"/>
+  <polygon points="100,195 85,130 75,145" fill="url(#crystalGrad3)" opacity="0.85"/>
+  <polygon points="100,195 115,130 125,145" fill="url(#crystalGrad1)" opacity="0.8"/>
+
+  <polygon points="25,165 80,125 100,115 85,130" fill="url(#crystalGrad3)" opacity="0.85"/>
+  <polygon points="25,165 70,140 80,125" fill="url(#crystalGrad2)" opacity="0.75"/>
+
+  <polygon points="5,100 70,95 85,100 70,105" fill="url(#crystalGrad4)" opacity="0.9"/>
+  <polygon points="5,100 70,105 75,120" fill="url(#crystalGrad1)" opacity="0.8"/>
+
+  <polygon points="25,35 80,75 100,85 85,70" fill="url(#crystalGrad1)" opacity="0.85"/>
+  <polygon points="25,35 70,60 80,75" fill="url(#crystalGrad3)" opacity="0.75"/>
+
+  <polygon points="100,85 115,100 100,115 85,100" fill="url(#crystalGrad2)" opacity="0.95"/>
+  <polygon points="85,70 100,85 85,100 70,85" fill="url(#crystalGrad4)" opacity="0.85"/>
+  <polygon points="115,70 130,85 115,100 100,85" fill="url(#crystalGrad1)" opacity="0.85"/>
+  <polygon points="115,100 130,115 115,130 100,115" fill="url(#crystalGrad3)" opacity="0.85"/>
+  <polygon points="85,100 100,115 85,130 70,115" fill="url(#crystalGrad2)" opacity="0.85"/>
+
+  <polygon points="100,20 160,60 140,100 100,80" fill="url(#crystalGrad1)" opacity="0.9"/>
+  <polygon points="100,20 40,60 60,100 100,80" fill="url(#crystalGrad2)" opacity="0.85"/>
+  <polygon points="100,80 140,100 130,150 100,180" fill="url(#crystalGrad3)" opacity="0.8"/>
+  <polygon points="100,80 60,100 70,150 100,180" fill="url(#crystalGrad1)" opacity="0.75"/>
+  <polygon points="140,100 160,60 170,120 130,150" fill="url(#crystalGrad2)" opacity="0.7"/>
+  <polygon points="60,100 40,60 30,120 70,150" fill="url(#crystalGrad3)" opacity="0.65"/>
+
+  <polygon points="100,20 120,50 100,80 80,50" fill="hsl(280,45%,80%)" opacity="0.5"/>
+  <polygon points="170,120 130,150 150,170 180,140" fill="hsl(169,50%,55%)" opacity="0.6"/>
+  <polygon points="30,120 70,150 50,170 20,140" fill="hsl(330,40%,65%)" opacity="0.55"/>
+</svg>
