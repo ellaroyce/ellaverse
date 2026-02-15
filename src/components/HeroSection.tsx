@@ -100,14 +100,14 @@ const HeroSection = () => {
                 <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold font-display text-banner-foreground mb-6 leading-tight">
                   <span 
                     className="glitch-text inline-block" 
-                    data-text="Ella"
+                    data-text="Professional"
                   >
                     Professional
                   </span>
                   <br />
                   <span 
                     className="glitch-text inline-block" 
-                    data-text="Türümina"
+                    data-text="Summary"
                   >
                     Summary
                   </span>
