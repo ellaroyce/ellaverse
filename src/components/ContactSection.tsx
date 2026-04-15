@@ -14,19 +14,19 @@ const ContactSection = () => {
               style={{ clipPath: 'polygon(50% 0, 100% 0, 100% 100%, 0% 100%)' }}
             />
             
-            <div className="relative z-10">
+            {/* <div className="relative z-10"> */}
 
               {/* Contact options */}
-              /* {/* <div className="grid sm:grid-cols-1 gap-6 pt-10 border-t border-banner-foreground/20"> */
+              {/* <div className="grid sm:grid-cols-1 gap-6 pt-10 border-t border-banner-foreground/20">
                 <div className="text-center">
-                  {/* <div className="w-12 h-12 rounded-xl bg-banner-foreground/10 mx-auto mb-3 flex items-center justify-center">
+                  <div className="w-12 h-12 rounded-xl bg-banner-foreground/10 mx-auto mb-3 flex items-center justify-center">
                     <Linkedin className="w-6 h-6 text-banner-foreground" />
-                  </div> */}
+                  </div> 
                   <h4 className="font-semibold mb-1 text-banner-foreground">Email</h4>
                   <p className="text-sm text-primary-foreground/60">Please contact me via personal email</p>
-                </div> */}
-              </div>
-            </div>
+                </div>
+              </div>*/}
+            {/* </div> */}
           </div>
         </div>
       </div>
