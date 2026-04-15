@@ -39,7 +39,7 @@ const AboutSection = () => {
               </div>
               <div className="absolute -bottom-4 -left-4 px-4 py-2 bg-card border border-border rounded-full shadow-lg animate-float" style={{ animationDelay: '2s' }}>
                 <span className="text-sm font-medium flex items-center gap-1">
-                  <Building2 className="w-4 h-4" /> Siemens Mobility
+                  <Building2 className="w-4 h-4" /> ex-Siemens
                 </span>
               </div>
             </div>
@@ -60,7 +60,7 @@ const AboutSection = () => {
                 Today, I work with leaders in complex, regulated environments where safety, uptime, and compliance are non-negotiable. My focus is simple: turn “AI theater” into production outcomes by aligning initiatives with enterprise architecture, governance, and risk.
               </p>
               <p>
-                I’m currently an AI Readiness Architect at Siemens Mobility, designing operating models and governance structures for large-scale systems.  
+                My expertise is AI Readiness, designing operating models and governance structures for large-scale systems.  
               </p>
               <p>            
                 In practice, I start with risk ownership and auditability, then design the decision forums and controls that make scaling possible — and I measure it with a KPI cockpit (value, risk, quality, coverage).
