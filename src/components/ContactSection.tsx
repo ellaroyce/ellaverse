@@ -22,8 +22,8 @@ const ContactSection = () => {
                   <div className="w-12 h-12 rounded-xl bg-banner-foreground/10 mx-auto mb-3 flex items-center justify-center">
                     <Linkedin className="w-6 h-6 text-banner-foreground" />
                   </div> 
-                  <h4 className="font-semibold mb-1 text-banner-foreground">Email</h4>
-                  <p className="text-sm text-primary-foreground/60">Please contact me via personal email</p>
+                  <h4 className="font-semibold mb-1 text-banner-foreground">LinkiedIn</h4>
+                  <p className="text-sm text-primary-foreground/60">linkedin.com</p>
                 </div>
               </div>
             </div> 
